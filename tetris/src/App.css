@@ -1,0 +1,19 @@
+/* Reset margins and paddings for all elements and set box-sizing to border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the Apps component */
+.Apps {
+  background-color: #406;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
