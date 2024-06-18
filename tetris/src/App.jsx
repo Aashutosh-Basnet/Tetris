@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import Game from "/src/components/Game.jsx";
 
 function App() {
   return (
     <div className="Apps">
-      <h1>Hello, it's me Aashutosh. I am CS student. Aren't I? Hello.</h1>
+      <Game rows={20} columns={10} />
     </div>
   );
 }
